@@ -1,6 +1,7 @@
 [package]
 name = "norgopolis-protos"
 description = "A set of .proto files for Norgopolis services."
+repository = "https://github.com/nvim-neorg/norgopolis-protos"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
