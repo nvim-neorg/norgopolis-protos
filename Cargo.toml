@@ -1,0 +1,15 @@
+[package]
+name = "norgopolis-protos"
+description = "A set of .proto files for Norgopolis services."
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prost = "0.11.9"
+tonic = "0.9.2"
+
+[build-dependencies]
+tonic-build = "0.9.2"
